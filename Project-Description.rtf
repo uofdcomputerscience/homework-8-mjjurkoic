@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10600\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # uofdmobile-final-project-description\
+U of D Mobile Final Project Description\
+\
+The campus wifi network is a source of irritation for many students.  It drops connections far too easily, and students often have to re-login through the captive web portal whenever they walk from one building to another.  I want to build an app that stores a student\'92s login credentials for the captive web portal on campus, and automatically logs the student in whenever the UDAir-Hotspot wifi network is detected.\
+\
+This app would be able to:\
+	- Prompt a user to enter their login credentials\
+	- Store user login credentials securely when the app is closed\
+	- Remain active in the background and detect whenever the campus wifi network is detected\
+	- Automatically submit a POST request to log the device in\
+\
+In some previous investigation, I discovered how the HTTP POST request to log a device in is formatted, and I successfully logged my computer into wifi using a POST request with cURL in Windows PowerShell.\
+\
+The two biggest areas of focus that have not yet been covered in class would be storing data after the app is closed, and setting up a background process to listen for wifi network detection.  I have already read up on storing data, but I haven\'92t yet been able to identify a way to listen in the background while the device runs.}
